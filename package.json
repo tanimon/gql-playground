@@ -11,11 +11,11 @@
   ],
   "scripts": {
     "prepare": "husky install",
+    "check": "npm run check -ws && npm run check:spell",
     "check:secret": "secretlint '**/*'",
     "check:spell": "cspell '**/*.{ts,tsx}' --cache --gitignore",
-    "check": "npm run check -ws && npm run check:spell",
     "fix": "npm run fix -ws && npm run check:spell",
-    "sort": "sort-package-json",
+    "sort": "sort-package-json && npm run sort -ws",
     "update:pkgs": "ncu -u && npm run update:pkgs -ws && npm i"
   },
   "lint-staged": {
