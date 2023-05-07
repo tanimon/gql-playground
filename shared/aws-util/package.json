@@ -1,12 +1,10 @@
 {
-  "name": "iac",
+  "name": "@classmethod/aws-util",
   "version": "0.0.0",
-  "bin": {
-    "iac": "bin/iac.js"
-  },
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
   "scripts": {
-    "build": "tsc",
-    "cdk": "cdk",
     "check": "run-p check:*",
     "check:format": "prettier --cache -c '**/*.{ts,json,yml,yaml,md}'",
     "check:lint": "eslint --cache --max-warnings 0 '**/*.ts'",
@@ -15,20 +13,10 @@
     "fix:format": "prettier --cache --write '**/*.{ts,json,yml,yaml,md}'",
     "fix:lint": "eslint --cache --max-warnings 0 --fix '**/*.{ts,tsx}'",
     "sort": "sort-package-json",
-    "test": "jest",
-    "watch": "tsc -w"
-  },
-  "dependencies": {
-    "aws-cdk-lib": "2.73.0",
-    "constructs": "10.0.0",
-    "source-map-support": "0.5.21"
+    "update:pkgs": "ncu -u"
   },
   "devDependencies": {
-    "@types/jest": "29.4.0",
-    "@types/node": "18.14.6",
-    "aws-cdk": "2.73.0",
-    "jest": "29.5.0",
-    "ts-jest": "29.0.5",
-    "ts-node": "10.9.1"
+    "@aws-sdk/client-ssm": "3.282.0",
+    "@aws-sdk/client-sts": "3.282.0"
   }
 }
