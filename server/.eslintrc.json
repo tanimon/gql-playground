@@ -83,22 +83,7 @@
           "allowSameModule": true
         },
         {
-          "module": "@line/bot-sdk",
-          "allowReferenceFrom": ["src/**/*"],
-          "allowSameModule": true
-        },
-        {
-          "module": "@vendia/serverless-express",
-          "allowReferenceFrom": ["src/handler"],
-          "allowSameModule": true
-        },
-        {
           "module": "aws-xray-sdk",
-          "allowReferenceFrom": ["src/handler"],
-          "allowSameModule": true
-        },
-        {
-          "module": "cors",
           "allowReferenceFrom": ["src/handler"],
           "allowSameModule": true
         },
@@ -110,16 +95,6 @@
         {
           "module": "dotenv",
           "allowReferenceFrom": ["src/handler", "src/cli"],
-          "allowSameModule": true
-        },
-        {
-          "module": "express",
-          "allowReferenceFrom": ["src/handler"],
-          "allowSameModule": true
-        },
-        {
-          "module": "express-openapi-validator",
-          "allowReferenceFrom": ["src/handler"],
           "allowSameModule": true
         },
         {
