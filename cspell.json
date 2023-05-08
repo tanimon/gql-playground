@@ -3,7 +3,7 @@
   "ignorePaths": [],
   "dictionaryDefinitions": [],
   "dictionaries": [],
-  "words": ["classmethod", "inversify", "pkgs", "sortby", "undici"],
+  "words": ["classmethod", "inversify", "Minio", "pkgs", "sortby", "undici"],
   "ignoreWords": [],
   "import": []
 }
