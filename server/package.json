@@ -20,12 +20,15 @@
     "update:pkgs": "ncu -u"
   },
   "dependencies": {
+    "@apollo/server": "4.7.1",
+    "@as-integrations/aws-lambda": "2.0.1",
     "@aws-sdk/client-s3": "3.331.0",
     "@aws-sdk/lib-dynamodb": "3.329.0",
     "aws-xray-sdk": "3.5.0",
     "dayjs": "1.11.7",
     "fs-extra": "11.1.1",
     "get-stream": "6.0.1",
+    "graphql": "16.6.0",
     "inversify": "6.0.1",
     "lodash.chunk": "4.2.0",
     "lodash.orderby": "4.6.0",
