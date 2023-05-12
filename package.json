@@ -3,11 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "workspaces": [
-    "e2e",
     "iac",
-    "server",
-    "shared/*",
-    "web"
+    "server"
   ],
   "scripts": {
     "prepare": "husky install",
