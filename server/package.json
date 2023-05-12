@@ -39,7 +39,6 @@
     "zod": "3.21.4"
   },
   "devDependencies": {
-    "@classmethod/aws-util": "file:../shared/aws-util",
     "@types/aws-lambda": "8.10.115",
     "@types/fs-extra": "11.0.1",
     "@types/inquirer": "9.0.3",
