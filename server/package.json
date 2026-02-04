@@ -20,7 +20,7 @@
     "update:pkgs": "ncu -u"
   },
   "dependencies": {
-    "@apollo/server": "4.7.1",
+    "@apollo/server": "5.4.0",
     "@as-integrations/aws-lambda": "2.0.1",
     "@aws-sdk/client-s3": "3.331.0",
     "@aws-sdk/lib-dynamodb": "3.329.0",
